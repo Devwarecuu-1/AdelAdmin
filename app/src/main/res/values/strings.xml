@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">AdelAdmin</string>
+    <string name="title_home">Propiedad</string>
+    <string name="title_dashboard">Planta</string>
+    <string name="title_notifications">Consignación</string>
+    <string name="title_distribution">Distribución</string>
+    <string name="title_profile">Perfil</string>
+
+    <string name="hint_entry">Entradas</string>
+    <string name="hint_outlet">Salidas</string>
+    <string name="hint_process">Procesos</string>
+    <string name="hint_capture_content">Contenido Captura</string>
+    <string name="hint_scan_read">Entrada Escaner</string>
+    <string name="hint_supplier">Proveedor: </string>
+    <string name="hint_branch">Sucursal: </string>
+    <string name="hint_warehouse">Almacen: </string>
+    <string name="hint_product_details">Informacion General de Articulo</string>
+    <string name="hint_codqr">Cod QR</string>
+    <string name="hint_address">Domicilio</string>
+    <string name="hint_codprod">CodProd</string>
+    <string name="hint_product">Producto</string>
+    <string name="hint_description">Descripcion</string>
+    <string name="hint_quantity">Cantidad</string>
+    <string name="hint_codpres">CodPres</string>
+    <string name="hint_type">Tipo</string>
+    <string name="hint_lot">Lote</string>
+    <string name="hint_expiration_date">Fecha Caducidad</string>
+    <string name="hint_elaboration_date">Fecha Elaboracion</string>
+    <string name="hint_cofepris_date">Fecha Cofepris</string>
+    <string name="hint_welcome">Bienvenido</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_title_dialog">Atencion!</string>
+    <string name="hint_message_company_select">Por favor selecciona una empresa</string>
+    <string name="hint_capture_delete_item_message">Realmente deseas eliminar el producto?</string>
+    <string name="hint_capture_delete_message">Realmente deseas eliminar TODO el documento?</string>
+    <string name="hint_loading_data">Cargando por favor espere...</string>
+    <string name="hint_purchase_order">Orden de Compra</string>
+    <string name="hint_configuration">Configuración</string>
+    <string name="hint_capture_folio">Folio de Captura</string>
+    <string name="hint_capture_folio_adv">Ingresa por favor el folio de factura</string>
+    <string name="hint_capture_exp_date">La fecha de caducidad es menor a 12 meses deseas continuar?</string>
+    <string name="hint_company">Datos Empresa</string>
+    <string name="hint_about_logout">Realmente deseas cerrar sesion?</string>
+    <string name="hint_customer">Cliente: </string>
+    <string name="hint_rfc">RFC: </string>
+    <string name="hint_customer_info">Datos Cliente</string>
+    <string name="hint_in_folio">Folio Lectura</string>
+    <string name="hint_invoice_folio">Folio Factura</string>
+    <string name="hint_domi">Docimicilio</string>
+    <string name="hint_fol_ent">Folio de entrega</string>
+
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_load">Cargar</string>
+
+    <string-array name="servers">
+        <item>http://104.215.117.162/</item>
+        <item>http://192.168.69.230/</item>
+    </string-array>
+</resources>

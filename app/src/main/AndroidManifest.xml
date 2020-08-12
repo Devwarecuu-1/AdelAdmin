@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adelnor.adeladmin">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".AdelAdmin"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.activities.editors.consignment.departures.dcts.DepartureByRConsignmentToSuppActivity"></activity>
+        <activity android:name=".ui.activities.editors.consignment.entries.dow.DepartureByTransferToWarehouseActivity" />
+        <activity
+            android:name=".ui.activities.editors.consignment.entries.ebsc.EntryBySupplierConsignmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar"/>
+        <activity android:name=".ui.activities.editors.plant.qrchp.QRCodeChangeBwPlatformsActivity" />
+        <activity android:name=".ui.activities.editors.distribution.departures.dbrd.DepartureByReturnToDistributorActivity" />
+        <activity android:name=".ui.activities.editors.distribution.entries.ebctd.EntryByConsignmentToDistributorActivity" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.drs.DepartureByRTaggingBySupplierActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.dmp.DepartureByMaquilaPackagingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.dbh.DepartureByBagHandlingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.dia.DepartureByInventoryAdjustmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.del.DepartureByExpirationOrLossesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.drts.DepartureByReturnToSupplierActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar"/>
+        <activity
+            android:name=".ui.activities.editors.property.departures.dt.DepartureByTransferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar"/>
+        <activity
+            android:name=".ui.activities.editors.property.departures.dum.DepartureByUnbilledMerchandiseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activities.editors.property.departures.dcd.DepartureByCustomerDeliveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.property.entries.epr.EntryByPurchaseReturnActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.property.entries.iae.EntryByInventoryAdjustmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.property.entries.et.EntryByTransferActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.property.entries.esp.EntryBySupplierPurchaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+        <activity
+            android:name=".ui.activities.editors.adjust.AdjustByMerchandiseArrangementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OnlyStatusBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sourcesanspro"
+        android:padding="6dp"
+        android:text="Atencion!"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sourcesanspro"
+        android:padding="6dp"
+        android:text="@string/hint_capture_folio_adv" />
+
+    <EditText
+        android:id="@+id/edit_folio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_capture_folio"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/appGreen2"
+        android:fontFamily="@font/sourcesanspro"
+        android:text="@string/btn_load"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

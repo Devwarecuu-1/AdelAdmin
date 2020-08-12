@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E30613</color>
+    <color name="colorPrimaryDark">#B1000A</color>
+    <color name="colorAccent">#1E9EE3</color>
+    <color name="textColorPrimary">#474747</color>
+    <color name="textColorSecondary">#787878</color>
+    <color name="separator">#BDBDBD</color>
+    <color name="windowBackground">#F3F3F3</color>
+
+    <color name="appGreen1">#479614</color>
+    <color name="appGreen2">#0C6696</color>
+    <color name="appRed1">#C13D45</color>
+    <color name="appBlue1">#7CE8F6</color>
+
+    <color name="appRight">#1AA691</color>
+    <color name="appError">#C52955</color>
+
+
+</resources>
